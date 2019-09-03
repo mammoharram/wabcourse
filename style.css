@@ -1,0 +1,26 @@
+body {
+    background-color:gray;
+    font-family: cursive;
+    color: white;
+    font-size: 4vh;
+    margin: 50px
+}
+#personality {
+    color: yellow
+}
+h1,h2,h3,h4,h5,h6 {
+    color: deepskyblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.abc {
+    font-style: italic
+}
+a:visited {
+    color: chartreuse
+}
+a:link {
+    color: blue
+}
+a:hover {
+    color: red  
+}
