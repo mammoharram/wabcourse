@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <link href="lab04style.css" type="text/css" rel="stylesheet"/>
+        </head>
+    <body>
+        <div class="headbar"> 
+            <h3>Workshop Registration</h3>
+        </div>
+        <div>
+            
+        </div>
+        <form>
+            <table>
+                <tr>
+                    <td colspan="3"><p class="formheader">register now while seats are available</p></td>
+                    <td class="separatorColumn"></td>
+                    <td colspan="2"><p class="formheader">Lunch</p></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><label>First Name</label></td>
+                    <td><input type="text" required/></td>
+                    <td class="separatorColumn"></td>
+                    <td><label>Meal Preference</label></td>
+                    <td>
+                        <select name="meals" >
+                            <option>Vege</option>
+                            <option>Meat</option>
+                            <option>Halal</option>
+                            <option>Pork</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>    <td></td>                
+                    <td><label>Last Name</label></td>
+                    <td><input type="text" required/></td>
+                    <td class="separatorColumn"></td>
+                </tr>
+                <tr><td></td>
+                    <td><label>Company/Institution</label></td>
+                    <td><input type="text" required/></td>
+                    <td class="separatorColumn"></td>
+                    <td colspan="2"><p class="formheader">Payment Method</p></td>
+                </tr>
+                <tr><td></td>
+                        <td><label>Address</label></td>
+                        <td rowspan="3"><textarea name="address" required></textarea></td>
+                        <td class="separatorColumn"></td>
+                        <td class=""></td>
+                        <td><input class="checkbox" type="checkbox" name="cash" /> cash </td>
+                </tr>
+                <tr><td></td>
+                        <td class="separatorColumn"></td>
+                        <td class="separatorColumn"></td>
+                    <td class=""></td>
+                    <td><input class="checkbox" type="checkbox" name="Cheque" /> Cheque </td></tr>
+                <tr><td></td>
+                        <td class="separatorColumn"></td>
+                        <td class="separatorColumn"></td>
+                        <td class=""></td>
+                        <td><input class="checkbox" type="checkbox" name="DemandDraft" /> Demand Draft </td>
+                </tr>
+                <tr><td></td>
+                        <td><label>City</label></td>
+                        <td><input type="text"/></td>  
+                        
+                </tr>
+                <tr><td></td>
+                        <td><label>State</label></td>
+                        <td>
+                            <select name="state" >
+                                <option>IOWA</option>
+                                <option>OHIO</option>
+                                <option>California</option>
+                                <option>Taxes</option>
+                            </select>
+                        </td>
+                        
+                </tr>
+                <tr><td></td>
+                        <td><label>Country</label></td>
+                        <td>
+                            <select name="country" >
+                                <option>USA</option>
+                                <option>Canada</option>
+                                <option>Egypt</option>
+                                <option>Jordan</option>
+                            </select>
+                        </td>
+                </tr>
+                <tr><td></td>
+                        <td><label>Email</label></td>
+                        <td><input type="email" required/></td>
+                </tr>
+                <tr><td></td>
+                        <td><label>Phone Number</label></td>
+                        <td><input type="number" required/></td>
+                </tr>
+                <tr><td></td>
+                    <td></td>
+                        <td><input class="buttons" type="submit"/>  
+                            <input  class="buttons" type="reset"/>  </td>
+                </tr>
+
+            </table>
+        </form>
+    </body>
+</html>
