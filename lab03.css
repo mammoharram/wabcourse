@@ -1,0 +1,69 @@
+#outer {
+    border: 2px dashed black;
+    overflow: hidden;
+	padding: 10px;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+    margin: 10px;
+    float: left;
+}
+
+.break{
+    clear: left;
+}
+
+li{
+    display: inline;
+    background-color: white;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+ul{
+    text-align: center;
+    background-color: red;
+    padding: 25px;
+}
+
+#main {
+    background-color: lightgray;
+    padding: 10px;
+    
+}
+#column1, #column2 {
+    background-color: lightblue;
+    float: right;
+    margin-left: 10px;
+    width: 100px;
+}
+h1 {
+  background-color: yellow;
+}
+#a, #b {
+	width: 100px;
+	height: 100px;
+	font: 30pt bold Helvetica, Arial, sans-serif;
+	line-height: 100px;
+	text-align: center;
+}
+
+#a {
+    background-color: lightblue;
+    float: left;
+}
+
+#b {
+    background-color: pink;
+    float: right;
+    clear: left;
+}
+
+#c {
+    background-color: lightgray;
+    clear: left;
+    text-align: right;
+}
